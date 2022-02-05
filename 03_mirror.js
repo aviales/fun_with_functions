@@ -7,8 +7,3 @@ var four = mirror(4)
 
 console.log(four()); // 4 
 
-function mirror(x){
-  return function(){
-    return x;
-  };
-}

@@ -11,10 +11,3 @@ function add(first, second){
   return first + second
 }
 
-function raise_function(fn){
-  return function(first){
-    return function(second){
-      return fn(first,second)
-    }
-  }
-}

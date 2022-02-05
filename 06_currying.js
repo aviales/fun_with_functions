@@ -9,8 +9,3 @@ function add(first, second){
   return first + second
 }
 
-function curry(fn, first){
-  return function(second){
-    return fn(first,second);
-  };
-}
